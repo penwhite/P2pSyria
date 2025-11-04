@@ -142,7 +142,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(76, 175, 80, 0.05);
+    /*background: rgba(76, 175, 80, 0.05);*/
     border: 1.5px solid rgba(76, 175, 80, 0.2);
     border-radius: 20px;
     transition: all 0.3s ease;
@@ -210,7 +210,7 @@ body {
 .leaf-sprout {
     width: 100%;
     height: 100%;
-    background: #4caf50;
+    background: #4045b9;
     border-radius: 0 100% 0 100%;
     opacity: 0;
     transform: scale(0) rotate(45deg);
@@ -241,7 +241,7 @@ body {
     background: none;
     border: none;
     cursor: pointer;
-    color: #81c784;
+    color: #4045b9;
     padding: 8px;
     border-radius: 12px;
     transition: all 0.3s ease;
@@ -305,7 +305,7 @@ body {
     width: 100%;
     height: 100%;
     background: rgba(76, 175, 80, 0.1);
-    border: 1.5px solid rgba(76, 175, 80, 0.3);
+    border: 1.5px solid #4045b9;
     border-radius: 0 100% 0 100%;
     transform: rotate(45deg);
     transition: all 0.3s ease;
@@ -321,8 +321,8 @@ body {
 }
 
 .zen-checkbox input[type="checkbox"]:checked + .checkbox-leaf .leaf-shape {
-    background: #4caf50;
-    border-color: #4caf50;
+    background: #4045b9;
+    border-color: #4045b9;
     box-shadow: 0 0 12px rgba(76, 175, 80, 0.4);
 }
 
@@ -331,7 +331,7 @@ body {
 }
 
 .healing-link {
-    color: #4caf50;
+    color: #4045b9;
     text-decoration: none;
     font-size: 14px;
     font-weight: 500;
@@ -385,7 +385,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(135deg, #4caf50, #66bb6a, #8bc34a);
+    background: #4045b9;
     border-radius: 20px;
     transition: all 0.3s ease;
 }
@@ -563,7 +563,7 @@ body {
 }
 
 .growth-link {
-    color: #4caf50;
+    color: #4045b9;
     text-decoration: none;
     font-weight: 600;
     transition: all 0.3s ease;
@@ -608,7 +608,7 @@ body {
 }
 
 .organic-field.error .field-nature {
-    border-color: #ff7043;
+    border-color: #4045b9;
     background: rgba(255, 112, 67, 0.1);
 }
 
